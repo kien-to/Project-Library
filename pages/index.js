@@ -37,15 +37,15 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Japan!
+        Hello, I&apos;m a student developer based in Vietnam!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Library of Kien's Projects
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Student Developer</p>
         </Box>
         <Box
           flexShrink={0}
@@ -73,18 +73,14 @@ const Home = () => (
           </Box>
         </Box>
       </Box>
+    </Container>
 
-      <Section delay={0.1}>
+      {/* <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
           Work
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
+          Kien To{' '}
           <NextLink href="/works/inkdrop" passHref scroll={false}>
             <Link>Inkdrop</Link>
           </NextLink>
@@ -116,7 +112,6 @@ const Home = () => (
           <BioYear>2010</BioYear>
           Completed the Master&apos;s Program in the Graduate School of
           Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
         </BioSection>
         <BioSection>
           <BioYear>2010</BioYear>
@@ -212,7 +207,6 @@ const Home = () => (
             A Markdown note-taking app
           </GridItem>
         </SimpleGrid>
-
         <Box align="center" my={4}>
           <NextLink href="/posts" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
@@ -221,7 +215,7 @@ const Home = () => (
           </NextLink>
         </Box>
       </Section>
-    </Container>
+    </Container> */}
   </Layout>
 )
 

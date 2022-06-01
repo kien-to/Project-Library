@@ -12,7 +12,7 @@ function Website({ Component, pageProps, router }) {
     <Chakra cookies={pageProps.cookies}>
       <Fonts />
       <Layout router={router}>
-        <AnimatePresence
+        {/* <AnimatePresence
           exitBeforeEnter
           initial={true}
           onExitComplete={() => {
@@ -20,9 +20,9 @@ function Website({ Component, pageProps, router }) {
               window.scrollTo({ top: 0 })
             }
           }}
-        >
+        > */}
           <Component {...pageProps} key={router.route} />
-        </AnimatePresence>
+        {/* </AnimatePresence> */}
       </Layout>
     </Chakra>
   )
